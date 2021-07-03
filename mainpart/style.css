@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(249, 254, 255);
+}
+
+header {
+    padding: 20px;
+    background-color: slategray;
+    color: whitesmoke;
+    font-family: "barlow condesed", "sans-serif";
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    font-family: "barlow condensed", "sans-serif";
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
