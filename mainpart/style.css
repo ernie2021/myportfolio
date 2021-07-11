@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: whitesmoke;
+    display: block;
+    font-family: 'Gruppo';
+}
+
+.header {
+    padding: 20px;
+    font-family: "Gruppo", sans-serif;
+    background-color: #0a0a08;
+    color: #ffffff;
+}
+
+.header div {
+    margin-right: 20px;
+    font-family: "Gruppo", sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 50px;
+    background-color: dimgray;
+    padding-left: 62px;
+    border-left-style: solid;
+    font-family: "Gruppo", sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    padding-left: 0px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: bolder;
+}
+
+/* targets the navigation menu */
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Gruppo", sans-serif;
+}
+
+/* creates hover effect on navigation menu */
+a:hover {
+    color: rgb(42, 83, 216);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Gruppo", sans-serif;
+}
+
+h2, h4, p {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h3 .project-name {
+    color: whitesmoke;;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.justify center {
+    justify-content: center;
+}
+
+p {
+    width: 90%;
+    padding-left: 15%;
+    margin-top: 3%;
+    word-spacing: 7px;
+}
+
+/* gives margin to the horizontal line */
+.extraMargin {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+/* targets the first word on the first parapraph */
+.first {
+    font-size: 30px;
+}
+
+hr {
+    width: 50%;
+    color: black;
+}
+
+/*targets the main hero image at top */
+.hero {
+    height: 200px;
+    margin-bottom: 25px;
+    background-image: url("../assets/coolimages5.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.hero:hover {
+    height: 400px;
+}
+
+/*targets the images on the "my work" section */
+.project-one {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    background-position: center;
+    background-image: url("../assets/coolimages6.jpg");
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.footer h4 {
+    font-size: 20px;
+}
