@@ -81,7 +81,7 @@ h3 .project-name {
     color: whitesmoke;;
 }
 
-.row {
+section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -89,6 +89,16 @@ h3 .project-name {
 
 .justify center {
     justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around;
+    margin-left: 4%;
+    
 }
 
 p {
@@ -100,8 +110,8 @@ p {
 
 /* gives margin to the horizontal line */
 .extraMargin {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
 }
 
 /* targets the first word on the first parapraph */
@@ -130,11 +140,20 @@ hr {
 
 /*targets the images on the "my work" section */
 .project-one {
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 350px;
     display: flex;
     background-position: center;
     background-image: url("../assets/coolimages6.jpg");
+}
+
+.project-one:hover {
+    height: 155px;
+
+}
+
+.contactme {
+    margin-top: 5%;
 }
 
 .content {
