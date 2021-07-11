@@ -128,7 +128,7 @@ hr {
 .hero {
     height: 200px;
     margin-bottom: 25px;
-    background-image: url("../assets/coolimages5.jpg");
+    background-image: url("./coolimages5.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -144,7 +144,7 @@ hr {
     width: 350px;
     display: flex;
     background-position: center;
-    background-image: url("../assets/coolimages6.jpg");
+    background-image: url("./coolimages6.jpg");
 }
 
 .project-one:hover {
