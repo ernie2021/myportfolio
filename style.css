@@ -6,19 +6,20 @@
 
 body {
     color: whitesmoke;
-    font-family: 'Gruppo';
+    font-family: 'Comfortaa';
+    font-size: x-large;
 }
 
 .header {
     padding: 20px;
-    font-family: "Gruppo", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     background-color: #0a0a08;
     color: #ffffff;
 }
 
 .header div {
     margin-right: 20px;
-    font-family: "Gruppo", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-size: 20px;
     display: flex;
     justify-content: flex-end;
@@ -44,30 +45,32 @@ h1 {
     background-color: dimgray;
     padding-left: 62px;
     border-left-style: solid;
-    font-family: "Gruppo", sans-serif;
+    font-family: "Comfortaa", sans-serif;
 }
 
 h2 {
     font-size: 50px;
     padding-left: 0px;
-    font-family: "Gruppo", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-weight: bolder;
 }
 
 /* targets the navigation menu */
+
 a {
     color: whitesmoke;
     text-decoration: none;
     font-size: 25px;
-    font-family: "Gruppo", sans-serif;
+    font-family: "Comfortaa", sans-serif;
 }
 
 /* creates hover effect on navigation menu */
+
 a:hover {
     color: rgb(42, 83, 216);
     text-decoration: none;
     font-size: 25px;
-    font-family: "Gruppo", sans-serif;
+    font-family: "Comfortaa", sans-serif;
 }
 
 h2, h4, p {
@@ -77,14 +80,26 @@ h2, h4, p {
 }
 
 h3 .project-name {
-    color: whitesmoke;;
+    color: whitesmoke;
+    ;
 }
 
 section {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: center;
 }
+
+@media screen and (max-width: 1200px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
 
 .justify center {
     justify-content: center;
@@ -97,69 +112,226 @@ section {
     margin: 30px;
     justify-content: space-around;
     margin-left: 4%;
-    
 }
 
 p {
     width: 90%;
-    padding-left: 11%;
+    padding-left: 2%;
     word-spacing: 7px;
 }
 
 /* gives margin to the horizontal line */
+
 .extraMargin {
     margin-top: 7rem;
     margin-bottom: 7rem;
 }
 
 /* targets the first word on the first parapraph */
-.first {
-    font-size: 30px;
-}
 
 hr {
     width: 50%;
+
     color: black;
 }
 
 /*targets the main hero image at top */
+
 .hero {
-    height: 200px;
-    margin-bottom: 25px;
+    height: 500px;
+    margin-bottom: 125px;
     background-image: url("./coolimages5.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
 }
 
-.hero:hover {
-    height: 400px;
+
+.github {
+    height: 50px;
+    margin-left: 5px;
 }
 
 /*targets the images on the "my work" section */
+.project-main-one {
+    height: 300px;
+    width: 450px;
+    display: flex;
+    background-position: center;
+    background-image: url("./ESportsRoastDemo.gif");    
+}
+
+.project-main-one:hover {
+    height: 350px;
+    width: 475px;
+}
+
+.project-main-two {
+    height: 300px;
+    width: 450px;
+    display: flex;
+    background-position: center;
+    background-image: url("./wastenomore.png");
+}
+
+.project-main-two:hover {
+    height: 350px;
+    width: 475px;
+}
+
+.project-main-three {
+    height: 300px;
+    width: 450px;
+    display: flex;
+    background-position: center;
+    background-image: url("./coolimages5.jpg");
+}
+
+.project-main-three:hover {
+    height: 350px;
+    width: 475px;
+}
+
 .project-one {
-    height: 150px;
-    width: 350px;
+    height: 300px;
+    width: 450px;
+    display: flex;
+    background-position: center;
+    background-image: url("./passwordgenerator.jpg");
+}
+
+.project-one:hover {
+    height: 350px;
+    width: 475px;
+}
+
+.project-two {
+    height: 300px;
+    width: 450px;
+    display: flex;
+    background-position: center;
+    background-image: url("./quiz.jpg");
+}
+
+.project-two:hover {
+    height: 350px;
+    width: 475px;
+}
+
+.project-three {
+    height: 300px;
+    width: 450px;
+    display: flex;
+    background-position: center;
+    background-image: url("./dailyplanner.jpg");
+}
+
+.project-three:hover {
+    height: 350px;
+    width: 475px;
+}
+
+.project-four {
+    height: 300px;
+    width: 450px;
+    display: flex;
+    background-position: center;
+    background-image: url("./weather.jpg");
+}
+
+.project-four:hover {
+    height: 350px;
+    width: 475px;
+}
+
+.project-five {
+    height: 300px;
+    width: 450px;
     display: flex;
     background-position: center;
     background-image: url("./coolimages6.jpg");
 }
 
-.project-one:hover {
-    height: 155px;
+.project-five:hover {
+    height: 350px;
+    width: 475px;
+}
 
+.project-six {
+    height: 300px;
+    width: 450px;
+    display: flex;
+    background-position: center;
+    background-image: url("./coolimages6.jpg");
+}
+
+.project-six:hover {
+    height: 350px;
+    width: 475px;
+}
+
+.project-daily {
+    color: black;
 }
 
 .contactme {
     margin-top: 5%;
 }
 
+#aboutme {
+    margin-bottom: 50px;
+}
+
+.number {
+    color: black;
+}
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
 }
+
+.listskills {
+    color: black ;
+}
+
+.infolink {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.bottomlink {
+    color: black;
+    margin-top: 100px;
+    font-size: xxx-large;
+}
+
+.linkedin {
+    height: 75px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.linkedintop {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5%;
+}
+
+.langicon {
+    height: 150px;
+    margin-bottom: 5%;
+}
+
+.mylanguages {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
 
 .footer {
     padding: 30px;
