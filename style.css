@@ -84,12 +84,16 @@ h3 .project-name {
     ;
 }
 
+/* covers the section where the projects are */
+
 section {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
 }
+
+/* this will keep the section area stacked on mobile */
 
 @media screen and (max-width: 1200px) {
     section {
